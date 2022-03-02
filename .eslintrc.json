@@ -17,5 +17,6 @@
         "jsdoc"
     ],
     "rules": {
+        "no-undef": 0
     }
 }

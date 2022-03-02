@@ -3,7 +3,19 @@ Enforcing JS code standards and style via ESLint.
 
 For a quick setup:
 `npm install -s eslint eslint-plugin-jsdoc`
-Then copy .vscode and .eslintrc.json from this directory into your project.
+
+Then copy from this directory into your project: 
+- .vscode
+- .eslintrc.json
+- package.json
+
+Then `npm install` to install all dependencies listed in package.json.
+
+## How this will affect a repo
+- adds a package.json (lists eslint dependencies)
+- adds a .eslintrc.json (eslint config)
+- adds a .vscode dir with settings (for format on save)
+- .gitignore node_modules
 
 ## Setup
 Setup involves first installing eslint via npm, configuring eslint to use specific rules/style, and finally using eslint via the cli or your IDE. 
@@ -61,4 +73,4 @@ You can override any rules from a given style under the rules key in .eslintrc.j
 
 ## In-browser Demo of Linting
 https://eslint.org/demo
-You can also generate the rc file here.
+You can also generate the rc file here. all_rules.json was generated here.
